@@ -29,6 +29,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[Agent-LLM](https://github.com/Josh-XT/Agent-LLM)|![GitHub Repo stars](https://badgen.net/github/stars/Josh-XT/Agent-LLM)|An Artificial Intelligence Automation Platform. AI Instruction management from various providers, has an adaptive memory, and a versatile plugin system with many commands including web browsing.| 人工智能自动化平台。https://agent-llm.com/|
 |[skyagi](https://github.com/litanlitudan/skyagi)|![GitHub Repo stars](https://badgen.net/github/stars/litanlitudan/skyagi)|SkyAGI implements the idea of Generative Agents and delivers a role-playing game that creates a very interesting user experience.| SkyAGI 实现了 "生成式智能体 "的理念，设计了一个角色扮演游戏，创造了非常有趣的用户体验。|
 |[generative_agents](https://github.com/joonspk-research/generative_agents)|![GitHub Repo stars](https://badgen.net/github/stars/joonspk-research/generative_agents)|Generative Agents: Interactive Simulacra of Human Behavior.| 斯坦福和谷歌的研究人员以《模拟人生》游戏为灵感，创建的 AI 智能体小镇；研究人员在模拟城镇中添加了 25 个生成式智能体 (Generative Agents)，这 25 个角色由 ChatGPT 和自定义代码控制，以高度逼真的行为独立地生活。在 ChatGPT 的支持下，每个人都有自己独特的身份、记忆和行为，并且可以独立交互，但他们都不会意识到自己是生活在模拟中。[中文介绍](https://www.oschina.net/news/253170/generative-agents-open-source)|
+|[developer](https://github.com/smol-ai/developer)|![GitHub Repo stars](https://badgen.net/github/stars/smol-ai/developer)|the first library to let you embed a developer agent in your own app!| 工程师智能体，给它一个产品规格，为你搭建一个完整的代码库，提供基本的模块，让您在自己的应用程序内拥有一个智能开发人员。|
 
 
 ## Agents 开发平台
