@@ -12,6 +12,9 @@ Agents (智能体) 精选资源合集，持续更新中
 ## 论文
 |名称|简介|备注|
 |---|---|---|
+|[LLM-Agent-Survey](https://github.com/Paitesanshi/LLM-Agent-Survey)| LLM-based Autonomous Agents 综述| ![GitHub Repo stars](https://badgen.net/github/stars/Paitesanshi/LLM-Agent-Survey)|
+|[LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List)| "The Rise and Potential of Large Language Model Based Agents: A Survey"综述论文的论文列表| ![GitHub Repo stars](https://badgen.net/github/stars/WooooDyy/LLM-Agent-Paper-List)|
+|[LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers)| LLM-based Autonomous Agents 综述| ![GitHub Repo stars](https://badgen.net/github/stars/zjunlp/LLMAgentPapers)|
 |[Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)|大语言模型可以学会使用工具|-|
 |[HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face](https://arxiv.org/abs/2303.17580)|用ChatGPT作为控制器，连接HuggingFace社区中的各种AI模型，完成多模态复杂任务。整个过程，只需要做的是：用自然语言将你的需求输出。|[知乎中文讨论](https://www.zhihu.com/question/594533230/answer/2975525808)|
 |[ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789)|研究人员设计了一个评测 LLM 使用工具能力的 Benchmark（基准）—— LLMBench，以及一个针对该场景的数据构建、模型训练、评测的框架—— ToolLLM。|[[知乎文章](https://zhuanlan.zhihu.com/p/649277843)], [[GitHub 开源地址](https://github.com/OpenBMB/ToolBench)]|
