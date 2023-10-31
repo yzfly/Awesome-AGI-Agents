@@ -56,3 +56,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |名称|Stars|简介|备注|
 |---|---|---|---|
 |[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)|![GitHub Repo stars](https://badgen.net/github/stars/e2b-dev/awesome-ai-agents)|A list of AI autonomous agents. |基于 LLM 的 agents 精选资源.|
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yzfly/Awesome-AGI-Agents&type=Date)](https://star-history.com/#yzfly/Awesome-AGI-Agents&Date)
