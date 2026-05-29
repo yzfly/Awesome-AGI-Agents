@@ -2,6 +2,16 @@
 
 Agents (智能体) 精选资源合集，持续更新中
 
+## 目录
+
+- [文章和视频](#文章和视频)
+- [论文](#论文)
+- [2024-2026 重要项目](#2024-2026-重要项目)
+- [前沿项目](#前沿项目)
+- [Agents 开发平台](#agents-开发平台)
+- [Curated List](#curated-list)
+- [Star History](#star-history)
+
 ## 文章和视频
 
 |名称|简介|备注|
@@ -24,15 +34,33 @@ Agents (智能体) 精选资源合集，持续更新中
 |[AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2308.03688)| AgentBench 是首个旨在评估 LLM 在各种不同环境中作为智能体的基准。它包含 8 种不同的环境，可以更全面地评估 LLM 在各种场景中作为自主智能体运行的能力。|[GitHub 开源地址](https://github.com/THUDM/AgentBench)|
 
 
+## 2024-2026 重要项目
+
+本仓库早期内容主要覆盖 2023 年的 Agent 生态。以下为 2024-2026 年间崛起并经验证仍活跃的重要项目与协议。
+
+|名称|Stars|简介|
+|---|---|---|
+|[LangGraph](https://github.com/langchain-ai/langgraph)|![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/langgraph)|LangChain 团队推出的有状态、多角色 Agent 编排框架，以图 (Graph) 的方式构建可控、可循环的 Agent 工作流。|
+|[CrewAI](https://github.com/crewAIInc/crewAI)|![GitHub Repo stars](https://badgen.net/github/stars/crewAIInc/crewAI)|面向角色协作的多 Agent 框架，让多个扮演不同角色的智能体像团队一样协同完成复杂任务。|
+|[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)|![GitHub Repo stars](https://badgen.net/github/stars/openai/openai-agents-python)|OpenAI 官方推出的轻量级多 Agent 编排 SDK，内置 handoffs, guardrails 与 tracing，是 Swarm 的生产级继任者。|
+|[OpenHands](https://github.com/OpenHands/OpenHands)|![GitHub Repo stars](https://badgen.net/github/stars/OpenHands/OpenHands)|原 OpenDevin，能够编写代码, 运行命令, 浏览网页的自主软件工程 Agent 平台。|
+|[SWE-agent](https://github.com/SWE-agent/SWE-agent)|![GitHub Repo stars](https://badgen.net/github/stars/SWE-agent/SWE-agent)|普林斯顿大学出品，让语言模型自主修复 GitHub Issue 的 Agent，在 SWE-bench 上表现出色。|
+|[Model Context Protocol (MCP)](https://github.com/modelcontextprotocol)|![GitHub Repo stars](https://badgen.net/github/stars/modelcontextprotocol/modelcontextprotocol)|Anthropic 提出的开放协议，为 LLM 与外部工具, 数据源的连接提供统一标准，已成为 Agent 生态事实标准。|
+|[Browser Use](https://github.com/browser-use/browser-use)|![GitHub Repo stars](https://badgen.net/github/stars/browser-use/browser-use)|让 AI Agent 像人一样操作浏览器，是当下最流行的网页自动化 Agent 工具之一。|
+|[smolagents](https://github.com/huggingface/smolagents)|![GitHub Repo stars](https://badgen.net/github/stars/huggingface/smolagents)|Hugging Face 推出的极简 Agent 库，核心仅约一千行代码，主打以代码形式编写 Agent 动作。|
+|[Pydantic AI](https://github.com/pydantic/pydantic-ai)|![GitHub Repo stars](https://badgen.net/github/stars/pydantic/pydantic-ai)|由 Pydantic 团队打造的 Agent 框架，强调类型安全与结构化输出，将 Pydantic 的工程体验带入 GenAI 开发。|
+|[A2A (Agent2Agent)](https://github.com/a2aproject/A2A)|![GitHub Repo stars](https://badgen.net/github/stars/a2aproject/A2A)|Google 发起的开放协议 (现由 Linux 基金会托管)，用于不同框架, 不同厂商的 Agent 之间互联互通。|
+
+
 ## 前沿项目
 |名称|Stars|简介|备注|
 |---|---|---|---|
-|[:fire: Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) |![GitHub Repo stars](https://badgen.net/github/stars/Significant-Gravitas/Auto-GPT)|An experimental open-source attempt to make GPT-4 fully autonomous.|大名鼎鼎的 AutoGPT 项目, AI Agents 的早期尝试之一|
+|[:fire: AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) |![GitHub Repo stars](https://badgen.net/github/stars/Significant-Gravitas/AutoGPT)|An experimental open-source attempt to make GPT-4 fully autonomous.|大名鼎鼎的 AutoGPT 项目, AI Agents 的早期尝试之一 (2023, 活跃度下降)|
 |[:fire: gpt-engineer](https://github.com/AntonOsika/gpt-engineer)|![GitHub Repo stars](https://badgen.net/github/stars/AntonOsika/gpt-engineer)|Specify what you want it to build, the AI asks for clarification, and then builds it.|全栈开发 Agent，用 GPT 编写整个项目代码！|
 |[:fire: AgentGPT](https://github.com/reworkd/AgentGPT) |![GitHub Repo stars](https://badgen.net/github/stars/reworkd/AgentGPT)|Assemble, configure, and deploy autonomous AI Agents in your browser.|在浏览器中部署运行 AI Agents.|
-|[:fire: MetaGPT](https://github.com/geekan/MetaGPT) |![GitHub Repo stars](https://badgen.net/github/stars/geekan/MetaGPT)|🌟 The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo. |MetaGPT, 多智能体框架，输入一句话的老板需求，输出用户故事 / 竞品分析 / 需求 / 数据结构 / APIs / 文件等|
-|[llama-hub,shopify agent](https://github.com/emptycrown/llama-hub/blob/main/llama_hub/tools/notebooks/shopify.ipynb)|![GitHub Repo stars](https://badgen.net/github/stars/emptycrown/llama-hub)|A customer support agent 🤖 that can interface with @Shopify’s ENTIRE GraphQL API Spec (>50k lines!).| llama-hub 构建的客户支持 agent，能够与 @Shopify 的整个 GraphQL API规范(>5万行!)交互|
-|[Agent-LLM](https://github.com/Josh-XT/Agent-LLM)|![GitHub Repo stars](https://badgen.net/github/stars/Josh-XT/Agent-LLM)|An Artificial Intelligence Automation Platform. AI Instruction management from various providers, has an adaptive memory, and a versatile plugin system with many commands including web browsing.| 人工智能自动化平台。https://agent-llm.com/|
+|[:fire: MetaGPT](https://github.com/FoundationAgents/MetaGPT) |![GitHub Repo stars](https://badgen.net/github/stars/FoundationAgents/MetaGPT)|🌟 The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo. |MetaGPT, 多智能体框架，输入一句话的老板需求，输出用户故事 / 竞品分析 / 需求 / 数据结构 / APIs / 文件等|
+|[llama-hub,shopify agent](https://github.com/run-llama/llama-hub/blob/main/llama_hub/tools/notebooks/shopify.ipynb)|![GitHub Repo stars](https://badgen.net/github/stars/run-llama/llama-hub)|A customer support agent 🤖 that can interface with @Shopify’s ENTIRE GraphQL API Spec (>50k lines!).| llama-hub 构建的客户支持 agent，能够与 @Shopify 的整个 GraphQL API规范(>5万行!)交互|
+|[AGiXT (原 Agent-LLM)](https://github.com/Josh-XT/AGiXT)|![GitHub Repo stars](https://badgen.net/github/stars/Josh-XT/AGiXT)|An Artificial Intelligence Automation Platform. AI Instruction management from various providers, has an adaptive memory, and a versatile plugin system with many commands including web browsing.| 人工智能自动化平台 (项目已更名为 AGiXT)。https://agixt.com/|
 |[skyagi](https://github.com/litanlitudan/skyagi)|![GitHub Repo stars](https://badgen.net/github/stars/litanlitudan/skyagi)|SkyAGI implements the idea of Generative Agents and delivers a role-playing game that creates a very interesting user experience.| SkyAGI 实现了 "生成式智能体 "的理念，设计了一个角色扮演游戏，创造了非常有趣的用户体验。|
 |[generative_agents](https://github.com/joonspk-research/generative_agents)|![GitHub Repo stars](https://badgen.net/github/stars/joonspk-research/generative_agents)|Generative Agents: Interactive Simulacra of Human Behavior.| 斯坦福和谷歌的研究人员以《模拟人生》游戏为灵感，创建的 AI 智能体小镇；研究人员在模拟城镇中添加了 25 个生成式智能体 (Generative Agents)，这 25 个角色由 ChatGPT 和自定义代码控制，以高度逼真的行为独立地生活。在 ChatGPT 的支持下，每个人都有自己独特的身份、记忆和行为，并且可以独立交互，但他们都不会意识到自己是生活在模拟中。[中文介绍](https://www.oschina.net/news/253170/generative-agents-open-source)|
 |[developer](https://github.com/smol-ai/developer)|![GitHub Repo stars](https://badgen.net/github/stars/smol-ai/developer)|the first library to let you embed a developer agent in your own app!| 工程师智能体，给它一个产品规格，为你搭建一个完整的代码库，提供基本的模块，让您在自己的应用程序内拥有一个智能开发人员。|
@@ -41,12 +69,12 @@ Agents (智能体) 精选资源合集，持续更新中
 ## Agents 开发平台
 |名称|Stars|简介|备注|
 |---|---|---|---|
-|[langchain](https://github.com/hwchase17/langchain)|![GitHub Repo stars](https://badgen.net/github/stars/hwchase17/langchain)|Building applications with LLMs through composability|开发的 ChatGPT 应用,构建基于 LLM 的 agents. [CSV Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/csv.html) [JSON Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/json.html), [OpenAPI Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/openapi.html), [Pandas Dataframe Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/pandas.html), [Python Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/python.html), [SQL Database Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/sql_database.html), [Vectorstore Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/vectorstore.html) |
+|[langchain](https://github.com/langchain-ai/langchain)|![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/langchain)|Building applications with LLMs through composability|开发的 ChatGPT 应用,构建基于 LLM 的 agents. 参见 [LangChain Agents 官方文档](https://docs.langchain.com/oss/python/langchain/agents) |
 |[AutoChain](https://github.com/Forethought-Technologies/AutoChain)|![GitHub Repo stars](https://badgen.net/github/stars/Forethought-Technologies/AutoChain)|AutoChain: Build lightweight, extensible, and testable LLM Agents.| AutoChain:构建轻量级、可扩展和可测试的LLM agents。|
 |[SuperAGI](https://github.com/TransformerOptimus/SuperAGI)|![GitHub Repo stars](https://badgen.net/github/stars/TransformerOptimus/SuperAGI)|<⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.|[官网](superagi.com/) 构建、管理和运行 AI Agents.|
-|[superagent](https://github.com/homanp/superagent)|![GitHub Repo stars](https://badgen.net/github/stars/homanp/superagent)|Superagent - Build, deploy, and manage LLM-powered agents.|[官网](https://docs.superagent.sh/) 开发人员能更轻松地构建、管理和部署智能体到生产中，包括内置内存、通过向量数据库检索文档、强大的工具、网络钩子、cron 任务等功能.|
+|[superagent](https://github.com/superagent-ai/superagent)|![GitHub Repo stars](https://badgen.net/github/stars/superagent-ai/superagent)|Superagent - Build, deploy, and manage LLM-powered agents.|[官网](https://docs.superagent.sh/) 开发人员能更轻松地构建、管理和部署智能体到生产中，包括内置内存、通过向量数据库检索文档、强大的工具、网络钩子、cron 任务等功能.|
 |[ai-town](https://github.com/a16z-infra/ai-town)|![GitHub Repo stars](https://badgen.net/github/stars/a16z-infra/ai-town)|A MIT-licensed, deployable starter kit for building and customizing your own version of AI town - a virtual town where AI characters live, chat and socialize.| 用于构建和定制你自己版本的人工智能小镇--一个人工智能角色生活、聊天和社交的虚拟小镇。|
-|[agent-protocol](https://github.com/e2b-dev/agent-protocol)|![GitHub Repo stars](https://badgen.net/github/stars/e2b-dev/agent-protocol)|Common interface for interacting with AI agents. The protocol is tech stack agnostic - you can use it with any framework for building agents.|[官网](www.agentprotocol.ai) AutoGPT, smol developer 等知名项目都在使用的"智能体通讯协议"--用于与智能体进行通信的通用接口。|
+|[agent-protocol](https://github.com/agi-inc/agent-protocol)|![GitHub Repo stars](https://badgen.net/github/stars/agi-inc/agent-protocol)|Common interface for interacting with AI agents. The protocol is tech stack agnostic - you can use it with any framework for building agents.|[官网](www.agentprotocol.ai) AutoGPT, smol developer 等知名项目都在使用的"智能体通讯协议"--用于与智能体进行通信的通用接口。|
 |[autogen](https://github.com/microsoft/autogen)|![GitHub Repo stars](https://badgen.net/github/stars/microsoft/autogen)|AutoGen is a framework that enables development of LLM applications using multiple agents that can converse with each other to solve task.| AutoGen是一个框架，它允许使用多个 agents 来开发LLM应用程序，这些智能体可以相互交谈以解决任务。|
 |[agents](https://github.com/aiwaves-cn/agents)|![GitHub Repo stars](https://badgen.net/github/stars/aiwaves-cn/agents)|An Open-source Framework for Autonomous Language Agents.| Agents 是一个用于构建自主语言智能体的开源库/框架。|
 |[bisheng 毕昇](https://github.com/dataelement/bisheng)|![GitHub Repo stars](https://badgen.net/github/stars/dataelement/bisheng)|Bisheng is an open LLM devops platform for next generation AI applications. | 一款领先的开源大模型应用开发平台，赋能和加速大模型应用开发落地，帮助用户以最佳体验进入下一代应用开发模式。|
@@ -60,3 +88,11 @@ Agents (智能体) 精选资源合集，持续更新中
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yzfly/Awesome-AGI-Agents&type=Date)](https://star-history.com/#yzfly/Awesome-AGI-Agents&Date)
+
+## License
+
+本项目采用 [CC BY-NC 4.0](LICENSE) 协议授权 (署名-非商业性使用)。
+
+---
+
+作者：云中江树，微信公众号: 云中江树
