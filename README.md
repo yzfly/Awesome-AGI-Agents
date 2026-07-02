@@ -50,6 +50,12 @@ Agents (智能体) 精选资源合集，持续更新中
 |[smolagents](https://github.com/huggingface/smolagents)|![GitHub Repo stars](https://badgen.net/github/stars/huggingface/smolagents)|Hugging Face 推出的极简 Agent 库，核心仅约一千行代码，主打以代码形式编写 Agent 动作。|
 |[Pydantic AI](https://github.com/pydantic/pydantic-ai)|![GitHub Repo stars](https://badgen.net/github/stars/pydantic/pydantic-ai)|由 Pydantic 团队打造的 Agent 框架，强调类型安全与结构化输出，将 Pydantic 的工程体验带入 GenAI 开发。|
 |[A2A (Agent2Agent)](https://github.com/a2aproject/A2A)|![GitHub Repo stars](https://badgen.net/github/stars/a2aproject/A2A)|Google 发起的开放协议 (现由 Linux 基金会托管)，用于不同框架, 不同厂商的 Agent 之间互联互通。|
+|[Claude Code](https://github.com/anthropics/claude-code)|![GitHub Repo stars](https://badgen.net/github/stars/anthropics/claude-code)|Anthropic 官方推出的终端编程 Agent，可在命令行中理解代码库、编辑文件、运行命令并完成复杂工程任务，是 2025 年最具影响力的 coding agent 之一。|
+|[Gemini CLI](https://github.com/google-gemini/gemini-cli)|![GitHub Repo stars](https://badgen.net/github/stars/google-gemini/gemini-cli)|Google 官方开源的终端 AI Agent，将 Gemini 模型带入命令行，支持代码理解、工具调用与 MCP，采用 Apache-2.0 协议。|
+|[Cline](https://github.com/cline/cline)|![GitHub Repo stars](https://badgen.net/github/stars/cline/cline)|VS Code 中的自主编程 Agent，可创建/编辑文件、执行命令、使用浏览器，并原生支持 MCP，是最流行的开源 IDE 编程助手之一。|
+|[Google ADK](https://github.com/google/adk-python)|![GitHub Repo stars](https://badgen.net/github/stars/google/adk-python)|Google 开源的 Agent Development Kit，模型与部署无关的代码优先 Agent 开发框架，为 Google 自家 Agent 产品提供支撑，并原生支持 A2A/MCP。|
+|[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)|![GitHub Repo stars](https://badgen.net/github/stars/microsoft/agent-framework)|微软推出的新一代开源 Agent 框架，统一并继承 AutoGen 与 Semantic Kernel，面向生产级多 Agent 编排与工作流。|
+|[AG-UI](https://github.com/ag-ui-protocol/ag-ui)|![GitHub Repo stars](https://badgen.net/github/stars/ag-ui-protocol/ag-ui)|Agent-User Interaction Protocol，用于连接后端 Agent 与前端应用的开放协议，与 MCP(接工具)、A2A(接 Agent)互补，专注 Agent 与用户界面的实时交互。|
 
 
 ## 前沿项目
@@ -64,6 +70,11 @@ Agents (智能体) 精选资源合集，持续更新中
 |[skyagi](https://github.com/litanlitudan/skyagi)|![GitHub Repo stars](https://badgen.net/github/stars/litanlitudan/skyagi)|SkyAGI implements the idea of Generative Agents and delivers a role-playing game that creates a very interesting user experience.| SkyAGI 实现了 "生成式智能体 "的理念，设计了一个角色扮演游戏，创造了非常有趣的用户体验。|
 |[generative_agents](https://github.com/joonspk-research/generative_agents)|![GitHub Repo stars](https://badgen.net/github/stars/joonspk-research/generative_agents)|Generative Agents: Interactive Simulacra of Human Behavior.| 斯坦福和谷歌的研究人员以《模拟人生》游戏为灵感，创建的 AI 智能体小镇；研究人员在模拟城镇中添加了 25 个生成式智能体 (Generative Agents)，这 25 个角色由 ChatGPT 和自定义代码控制，以高度逼真的行为独立地生活。在 ChatGPT 的支持下，每个人都有自己独特的身份、记忆和行为，并且可以独立交互，但他们都不会意识到自己是生活在模拟中。[中文介绍](https://www.oschina.net/news/253170/generative-agents-open-source)|
 |[developer](https://github.com/smol-ai/developer)|![GitHub Repo stars](https://badgen.net/github/stars/smol-ai/developer)|the first library to let you embed a developer agent in your own app!| 工程师智能体，给它一个产品规格，为你搭建一个完整的代码库，提供基本的模块，让您在自己的应用程序内拥有一个智能开发人员。|
+|[opencode](https://github.com/sst/opencode)|![GitHub Repo stars](https://badgen.net/github/stars/sst/opencode)|An AI coding agent built for the terminal.|SST 团队打造的终端编程 Agent，模型无关，支持多种 LLM 提供商，2025 年增长极快。|
+|[Aider](https://github.com/Aider-AI/aider)|![GitHub Repo stars](https://badgen.net/github/stars/Aider-AI/aider)|AI pair programming in your terminal.|终端 AI 结对编程工具，直接在本地 Git 仓库中编辑代码并自动提交，是 CLI 编程 Agent 的代表作。|
+|[goose](https://github.com/block/goose)|![GitHub Repo stars](https://badgen.net/github/stars/block/goose)|An open source, extensible AI agent that goes beyond code suggestions.|Block(Square 母公司)开源的本地可扩展 AI Agent，支持 MCP，可自动构建、执行和调试任务。|
+|[DeerFlow](https://github.com/bytedance/deer-flow)|![GitHub Repo stars](https://badgen.net/github/stars/bytedance/deer-flow)|A community-driven Deep Research framework.|字节跳动开源的深度研究 Agent 框架，基于 LangGraph，结合搜索、爬取与代码执行完成自动化研究报告。|
+|[Suna](https://github.com/kortix-ai/suna)|![GitHub Repo stars](https://badgen.net/github/stars/kortix-ai/suna)|Open source generalist AI agent.|开源通用型 AI Agent（对标 Manus），可自主浏览网页、执行命令、操作文件完成真实世界任务。|
 
 
 ## Agents 开发平台
@@ -79,11 +90,16 @@ Agents (智能体) 精选资源合集，持续更新中
 |[agents](https://github.com/aiwaves-cn/agents)|![GitHub Repo stars](https://badgen.net/github/stars/aiwaves-cn/agents)|An Open-source Framework for Autonomous Language Agents.| Agents 是一个用于构建自主语言智能体的开源库/框架。|
 |[bisheng 毕昇](https://github.com/dataelement/bisheng)|![GitHub Repo stars](https://badgen.net/github/stars/dataelement/bisheng)|Bisheng is an open LLM devops platform for next generation AI applications. | 一款领先的开源大模型应用开发平台，赋能和加速大模型应用开发落地，帮助用户以最佳体验进入下一代应用开发模式。|
 |[Agently](https://github.com/Maplemx/Agently)|![GitHub Repo stars](https://badgen.net/github/stars/Maplemx/Agently)|🚀 A fast way to build LLM Agent based Application. | 面向应用开发者：Agently提供方便快速生成能力强大的Agent实例的能力，让开发者可以便捷地将这些实例与自己的业务代码相结合。|
+|[Dify](https://github.com/langgenius/dify)|![GitHub Repo stars](https://badgen.net/github/stars/langgenius/dify)|Production-ready platform for agentic workflow development.|生产级 LLM 应用与 Agent 工作流开发平台，提供可视化编排、RAG、工具调用与可观测性，社区规模巨大。|
+|[Agno](https://github.com/agno-agi/agno)|![GitHub Repo stars](https://badgen.net/github/stars/agno-agi/agno)|Full-stack framework for building Multi-Agent Systems with memory, knowledge and reasoning.|原 Phidata，高性能全栈多 Agent 框架，内置记忆、知识、推理与工具，主打轻量与运行速度。|
+|[Letta](https://github.com/letta-ai/letta)|![GitHub Repo stars](https://badgen.net/github/stars/letta-ai/letta)|Letta (formerly MemGPT) is a framework for creating stateful LLM agents.|原 MemGPT，专注于具备长期记忆的有状态 Agent，让智能体在跨会话中持续学习与保留上下文。|
 
 ## Curated List
 |名称|Stars|简介|备注|
 |---|---|---|---|
 |[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)|![GitHub Repo stars](https://badgen.net/github/stars/e2b-dev/awesome-ai-agents)|A list of AI autonomous agents. |基于 LLM 的 agents 精选资源.|
+|[awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)|![GitHub Repo stars](https://badgen.net/github/stars/Shubhamsaboo/awesome-llm-apps)|Collection of awesome LLM apps with AI Agents and RAG.|大量带 AI Agent 与 RAG 的实战应用示例合集，覆盖多种模型与框架，实操性强。|
+|[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)|![GitHub Repo stars](https://badgen.net/github/stars/punkpeye/awesome-mcp-servers)|A collection of MCP servers.|MCP(Model Context Protocol)服务器精选合集，是为 Agent 接入外部工具/数据源的重要资源导航。|
 
 ## Star History
 
