@@ -32,6 +32,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face](https://arxiv.org/abs/2303.17580)|用ChatGPT作为控制器，连接HuggingFace社区中的各种AI模型，完成多模态复杂任务。整个过程，只需要做的是：用自然语言将你的需求输出。|[知乎中文讨论](https://www.zhihu.com/question/594533230/answer/2975525808)|
 |[ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789)|研究人员设计了一个评测 LLM 使用工具能力的 Benchmark（基准）—— LLMBench，以及一个针对该场景的数据构建、模型训练、评测的框架—— ToolLLM。|[[知乎文章](https://zhuanlan.zhihu.com/p/649277843)], [[GitHub 开源地址](https://github.com/OpenBMB/ToolBench)]|
 |[AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2308.03688)| AgentBench 是首个旨在评估 LLM 在各种不同环境中作为智能体的基准。它包含 8 种不同的环境，可以更全面地评估 LLM 在各种场景中作为自主智能体运行的能力。|[GitHub 开源地址](https://github.com/THUDM/AgentBench)|
+|[ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)|面向真实线上任务的浏览器智能体评测框架，包含 153 个日常任务并覆盖 144 个真实网站；通过隔离容器、多种可选 agent harness，以及回放、动作、网络和消息轨迹支持可复现实验与失效分析。|[项目主页](https://claw-bench.com/) · [GitHub](https://github.com/TIGER-AI-Lab/ClawBench)|
 
 
 ## 2024-2026 重要项目
