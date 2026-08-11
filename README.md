@@ -93,6 +93,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[Dify](https://github.com/langgenius/dify)|![GitHub Repo stars](https://badgen.net/github/stars/langgenius/dify)|Production-ready platform for agentic workflow development.|生产级 LLM 应用与 Agent 工作流开发平台，提供可视化编排、RAG、工具调用与可观测性，社区规模巨大。|
 |[Agno](https://github.com/agno-agi/agno)|![GitHub Repo stars](https://badgen.net/github/stars/agno-agi/agno)|Full-stack framework for building Multi-Agent Systems with memory, knowledge and reasoning.|原 Phidata，高性能全栈多 Agent 框架，内置记忆、知识、推理与工具，主打轻量与运行速度。|
 |[Letta](https://github.com/letta-ai/letta)|![GitHub Repo stars](https://badgen.net/github/stars/letta-ai/letta)|Letta (formerly MemGPT) is a framework for creating stateful LLM agents.|原 MemGPT，专注于具备长期记忆的有状态 Agent，让智能体在跨会话中持续学习与保留上下文。|
+|[Aeon](https://github.com/aeonfun/aeon)|![GitHub Repo stars](https://badgen.net/github/stars/aeonfun/aeon)|The most autonomous agent framework - skills as Markdown files, scheduled on GitHub Actions with no approval loops, self-heals broken skills, and dispatches each skill to one of six model harnesses.|完全自主的 Agent 框架，技能即 Markdown 文件，通过 cron 定时在 GitHub Actions 上无人值守运行，可自我修复损坏的技能，支持 Claude、Grok、Codex、Pi、Vibe、Kimi 六种模型。|
 
 ## Curated List
 |名称|Stars|简介|备注|
