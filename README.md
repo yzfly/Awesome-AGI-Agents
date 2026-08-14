@@ -103,7 +103,7 @@ Agents (智能体) 精选资源合集，持续更新中
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yzfly/Awesome-AGI-Agents&type=Date)](https://star-history.com/#yzfly/Awesome-AGI-Agents&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=yzfly/Awesome-AGI-Agents&type=Date)](https://star-history.dera.page/#yzfly/Awesome-AGI-Agents&Date)
 
 ## License
 
