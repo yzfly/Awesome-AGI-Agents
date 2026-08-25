@@ -44,6 +44,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[CrewAI](https://github.com/crewAIInc/crewAI)|![GitHub Repo stars](https://badgen.net/github/stars/crewAIInc/crewAI)|面向角色协作的多 Agent 框架，让多个扮演不同角色的智能体像团队一样协同完成复杂任务。|
 |[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)|![GitHub Repo stars](https://badgen.net/github/stars/openai/openai-agents-python)|OpenAI 官方推出的轻量级多 Agent 编排 SDK，内置 handoffs, guardrails 与 tracing，是 Swarm 的生产级继任者。|
 |[OpenHands](https://github.com/OpenHands/OpenHands)|![GitHub Repo stars](https://badgen.net/github/stars/OpenHands/OpenHands)|原 OpenDevin，能够编写代码, 运行命令, 浏览网页的自主软件工程 Agent 平台。|
+|[Orkas](https://github.com/Orkas-AI/Orkas)|![GitHub Repo stars](https://badgen.net/github/stars/Orkas-AI/Orkas)|开源、本地优先的 AI 团队桌面应用，由 Commander 将目标转成可执行计划，并在一个对话中协调专业 Agent 并行或串行完成复杂工作。|
 |[SWE-agent](https://github.com/SWE-agent/SWE-agent)|![GitHub Repo stars](https://badgen.net/github/stars/SWE-agent/SWE-agent)|普林斯顿大学出品，让语言模型自主修复 GitHub Issue 的 Agent，在 SWE-bench 上表现出色。|
 |[Model Context Protocol (MCP)](https://github.com/modelcontextprotocol)|![GitHub Repo stars](https://badgen.net/github/stars/modelcontextprotocol/modelcontextprotocol)|Anthropic 提出的开放协议，为 LLM 与外部工具, 数据源的连接提供统一标准，已成为 Agent 生态事实标准。|
 |[Browser Use](https://github.com/browser-use/browser-use)|![GitHub Repo stars](https://badgen.net/github/stars/browser-use/browser-use)|让 AI Agent 像人一样操作浏览器，是当下最流行的网页自动化 Agent 工具之一。|
