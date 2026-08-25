@@ -37,7 +37,7 @@ Agents (智能体) 精选资源合集，持续更新中
 
 ## 2024-2026 重要项目
 
-本仓库早期内容主要覆盖 2023 年的 Agent 生态。以下为 2024-2026 年间崛起并经验证仍活跃的重要项目与协议。
+本仓库早期内容主要覆盖 2023 年的 Agent 生态。以下为 2024-2026 年间崛起并经验证仍活跃的重要项目与协议（2026-08 更新：新增 deepseek-harness、Codex CLI、OpenClaw、Hermes、pi、Agent Skills）。
 
 |名称|Stars|简介|
 |---|---|---|
@@ -59,6 +59,12 @@ Agents (智能体) 精选资源合集，持续更新中
 |[Google ADK](https://github.com/google/adk-python)|![GitHub Repo stars](https://badgen.net/github/stars/google/adk-python)|Google 开源的 Agent Development Kit，模型与部署无关的代码优先 Agent 开发框架，为 Google 自家 Agent 产品提供支撑，并原生支持 A2A/MCP。|
 |[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)|![GitHub Repo stars](https://badgen.net/github/stars/microsoft/agent-framework)|微软推出的新一代开源 Agent 框架，统一并继承 AutoGen 与 Semantic Kernel，面向生产级多 Agent 编排与工作流。|
 |[AG-UI](https://github.com/ag-ui-protocol/ag-ui)|![GitHub Repo stars](https://badgen.net/github/stars/ag-ui-protocol/ag-ui)|Agent-User Interaction Protocol，用于连接后端 Agent 与前端应用的开放协议，与 MCP(接工具)、A2A(接 Agent)互补，专注 Agent 与用户界面的实时交互。|
+|[deepseek-harness (dsh)](https://github.com/deepseek-ai/deepseek-harness)|![GitHub Repo stars](https://badgen.net/github/stars/deepseek-ai/deepseek-harness)|DeepSeek 官方开源 Agent 框架（2026-08-13 发布，MIT，两周破 19 万 star）："一切皆插件"，模型、工具、会话、沙箱、循环与 UI 均可替换；内置 MCP 客户端，兼容 Claude Code / Codex 的 Hook 协议与 Agent Skills。技能精选见 [awesome-dsh-skills](https://github.com/yzfly/awesome-dsh-skills)。|
+|[OpenAI Codex CLI](https://github.com/openai/codex)|![GitHub Repo stars](https://badgen.net/github/stars/openai/codex)|OpenAI 官方开源终端编码 Agent，基于 Responses API，支持 MCP 与 Agent Skills，可接入 DeepSeek-V4 等第三方模型。|
+|[OpenClaw](https://github.com/openclaw/openclaw)|![GitHub Repo stars](https://badgen.net/github/stars/openclaw/openclaw)|"龙虾"——开源个人 AI 助理，本地运行并接入飞书 / 微信 / Telegram 等 IM，支持 Skills 与 MCP，配套 ClawHub 技能市场，是 2026 年最火的个人 Agent 之一。|
+|[Hermes Agent](https://github.com/NousResearch/hermes-agent)|![GitHub Repo stars](https://badgen.net/github/stars/NousResearch/hermes-agent)|Nous Research 出品的开源自我改进个人 Agent，跨 CLI / 桌面 / IM 运行，跨会话学习，可驱动真实终端与浏览器。|
+|[pi](https://github.com/earendil-works/pi)|![GitHub Repo stars](https://badgen.net/github/stars/earendil-works/pi)|极简可扩展的编码 Agent harness（"primitives, not features"），内核仅 Read/Write/Edit/Bash 四个工具，靠扩展与 Skills 定制，OpenClaw 即构建于其上。|
+|[Agent Skills（开放标准）](https://github.com/agentskills/agentskills)|![GitHub Repo stars](https://badgen.net/github/stars/agentskills/agentskills)|Anthropic 发起的 `SKILL.md` 开放标准，让 Agent 按需加载可复用技能，已被 Claude Code、Codex、Gemini CLI、Cursor、OpenCode、dsh 等 40+ 产品采纳。|
 
 
 ## 前沿项目
