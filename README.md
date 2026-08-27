@@ -65,6 +65,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[Hermes Agent](https://github.com/NousResearch/hermes-agent)|![GitHub Repo stars](https://badgen.net/github/stars/NousResearch/hermes-agent)|Nous Research 出品的开源自我改进个人 Agent，跨 CLI / 桌面 / IM 运行，跨会话学习，可驱动真实终端与浏览器。|
 |[pi](https://github.com/earendil-works/pi)|![GitHub Repo stars](https://badgen.net/github/stars/earendil-works/pi)|极简可扩展的编码 Agent harness（"primitives, not features"），内核仅 Read/Write/Edit/Bash 四个工具，靠扩展与 Skills 定制，OpenClaw 即构建于其上。|
 |[Agent Skills（开放标准）](https://github.com/agentskills/agentskills)|![GitHub Repo stars](https://badgen.net/github/stars/agentskills/agentskills)|Anthropic 发起的 `SKILL.md` 开放标准，让 Agent 按需加载可复用技能，已被 Claude Code、Codex、Gemini CLI、Cursor、OpenCode、dsh 等 40+ 产品采纳。|
+|[OfferHuntCrew](https://github.com/C571467648/offerhuntcrew)|![GitHub Repo stars](https://badgen.net/github/stars/C571467648/offerhuntcrew)|开源免费的多角色 AI 求职陪跑团队：总架构师 / 班主任 / 选岗老师 / 学习指导老师 / 简历优化老师 5 位 AI 角色协作，覆盖岗位情报、投递台账与可视化看板、今日/本周待办、笔面试辅导与简历优化，纯 HTML 看板双击即开、无需服务器。|
 
 
 ## 前沿项目
