@@ -4,6 +4,7 @@ Agents (智能体) 精选资源合集，持续更新中
 
 ## 目录
 
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
 - [文章和视频](#文章和视频)
 - [论文](#论文)
 - [2024-2026 重要项目](#2024-2026-重要项目)
