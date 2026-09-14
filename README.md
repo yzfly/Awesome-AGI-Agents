@@ -85,6 +85,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[goose](https://github.com/block/goose)|![GitHub Repo stars](https://badgen.net/github/stars/block/goose)|An open source, extensible AI agent that goes beyond code suggestions.|Block(Square 母公司)开源的本地可扩展 AI Agent，支持 MCP，可自动构建、执行和调试任务。|
 |[DeerFlow](https://github.com/bytedance/deer-flow)|![GitHub Repo stars](https://badgen.net/github/stars/bytedance/deer-flow)|A community-driven Deep Research framework.|字节跳动开源的深度研究 Agent 框架，基于 LangGraph，结合搜索、爬取与代码执行完成自动化研究报告。|
 |[Suna](https://github.com/kortix-ai/suna)|![GitHub Repo stars](https://badgen.net/github/stars/kortix-ai/suna)|Open source generalist AI agent.|开源通用型 AI Agent（对标 Manus），可自主浏览网页、执行命令、操作文件完成真实世界任务。|
+|[Solgrok](https://github.com/LMajster/sgrok)|![GitHub Repo stars](https://badgen.net/github/stars/LMajster/sgrok)|Autonomous Solana creator-ops agent coin ($SGROK) — 24/7 promo + fee claim/sweep on Bags.fm.|Solana 自主 creator-ops Agent；[官网](https://lmajster.github.io/sgrok/) · [Bags](https://bags.fm/7QpJ8Pb3pGhoArRPJu3TXbx1p3ezn3TCwz6cMcwQBAGS)|
 
 
 ## Agents 开发平台
