@@ -49,6 +49,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[SWE-agent](https://github.com/SWE-agent/SWE-agent)|![GitHub Repo stars](https://badgen.net/github/stars/SWE-agent/SWE-agent)|普林斯顿大学出品，让语言模型自主修复 GitHub Issue 的 Agent，在 SWE-bench 上表现出色。|
 |[Model Context Protocol (MCP)](https://github.com/modelcontextprotocol)|![GitHub Repo stars](https://badgen.net/github/stars/modelcontextprotocol/modelcontextprotocol)|Anthropic 提出的开放协议，为 LLM 与外部工具, 数据源的连接提供统一标准，已成为 Agent 生态事实标准。|
 |[Browser Use](https://github.com/browser-use/browser-use)|![GitHub Repo stars](https://badgen.net/github/stars/browser-use/browser-use)|让 AI Agent 像人一样操作浏览器，是当下最流行的网页自动化 Agent 工具之一。|
+|[Jev Social](https://github.com/socai-io/jev-social)|![GitHub Repo stars](https://badgen.net/github/stars/socai-io/jev-social)|Jev 驱动的只读社交研究应用：仅在受限操作中做类型化选择，由本地 socai CLI 使用用户已登录的 Chrome 获取 Instagram、TikTok、LinkedIn 帖子、评论和视频，并输出带来源链接的证据报告。|
 |[agent-qa](https://github.com/vostride/agent-qa)|![GitHub Repo stars](https://badgen.net/github/stars/vostride/agent-qa)|面向软件团队的开源自进化 QA Agent，支持用自然语言编写并运行 Web 与移动端测试，通过跨运行记忆适应 UI 变化并发现回归问题。|
 |[smolagents](https://github.com/huggingface/smolagents)|![GitHub Repo stars](https://badgen.net/github/stars/huggingface/smolagents)|Hugging Face 推出的极简 Agent 库，核心仅约一千行代码，主打以代码形式编写 Agent 动作。|
 |[Pydantic AI](https://github.com/pydantic/pydantic-ai)|![GitHub Repo stars](https://badgen.net/github/stars/pydantic/pydantic-ai)|由 Pydantic 团队打造的 Agent 框架，强调类型安全与结构化输出，将 Pydantic 的工程体验带入 GenAI 开发。|
