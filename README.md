@@ -65,6 +65,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[Hermes Agent](https://github.com/NousResearch/hermes-agent)|![GitHub Repo stars](https://badgen.net/github/stars/NousResearch/hermes-agent)|Nous Research 出品的开源自我改进个人 Agent，跨 CLI / 桌面 / IM 运行，跨会话学习，可驱动真实终端与浏览器。|
 |[pi](https://github.com/earendil-works/pi)|![GitHub Repo stars](https://badgen.net/github/stars/earendil-works/pi)|极简可扩展的编码 Agent harness（"primitives, not features"），内核仅 Read/Write/Edit/Bash 四个工具，靠扩展与 Skills 定制，OpenClaw 即构建于其上。|
 |[Agent Skills（开放标准）](https://github.com/agentskills/agentskills)|![GitHub Repo stars](https://badgen.net/github/stars/agentskills/agentskills)|Anthropic 发起的 `SKILL.md` 开放标准，让 Agent 按需加载可复用技能，已被 Claude Code、Codex、Gemini CLI、Cursor、OpenCode、dsh 等 40+ 产品采纳。|
+|[MySpec](https://myspec.dev)|![GitHub Repo stars](https://badgen.net/github/stars/myspec-ai)|Spec-Driven Development (SDD) 平台与智能体规范系统，通过自然语言对话推导系统需求、架构决策契约（ADR）与原子任务分解，为 Claude Code、Cline、Codex 等编码 Agent 提供确定性执行蓝图。|
 
 
 ## 前沿项目
