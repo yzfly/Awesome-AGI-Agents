@@ -33,6 +33,8 @@ Agents (智能体) 精选资源合集，持续更新中
 |[ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789)|研究人员设计了一个评测 LLM 使用工具能力的 Benchmark（基准）—— LLMBench，以及一个针对该场景的数据构建、模型训练、评测的框架—— ToolLLM。|[[知乎文章](https://zhuanlan.zhihu.com/p/649277843)], [[GitHub 开源地址](https://github.com/OpenBMB/ToolBench)]|
 |[AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2308.03688)| AgentBench 是首个旨在评估 LLM 在各种不同环境中作为智能体的基准。它包含 8 种不同的环境，可以更全面地评估 LLM 在各种场景中作为自主智能体运行的能力。|[GitHub 开源地址](https://github.com/THUDM/AgentBench)|
 |[ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)|面向真实线上任务的浏览器智能体评测框架，包含 153 个日常任务并覆盖 144 个真实网站；通过隔离容器、多种可选 agent harness，以及回放、动作、网络和消息轨迹支持可复现实验与失效分析。|[项目主页](https://claw-bench.com/) · [GitHub](https://github.com/TIGER-AI-Lab/ClawBench)|
+|[awesome-llm-agent-papers](https://github.com/js-lee-AI/awesome-llm-agent-papers)| 《LLM Agents: A Survey》综述的配套论文清单，按规划与推理、记忆、工具使用、多智能体协作以及评测与安全分类整理| ![GitHub Repo stars](https://badgen.net/github/stars/js-lee-AI/awesome-llm-agent-papers)|
+|[awesome-agent-loop-papers](https://github.com/js-lee-AI/awesome-agent-loop-papers)| 《The Agent Loop》综述的配套论文清单，以智能体循环为主线，涵盖循环范式、终止与验证、agentic RL、技能（skills）与 harness| ![GitHub Repo stars](https://badgen.net/github/stars/js-lee-AI/awesome-agent-loop-papers)|
 
 
 ## 2024-2026 重要项目
