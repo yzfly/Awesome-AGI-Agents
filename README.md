@@ -33,6 +33,8 @@ Agents (智能体) 精选资源合集，持续更新中
 |[ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789)|研究人员设计了一个评测 LLM 使用工具能力的 Benchmark（基准）—— LLMBench，以及一个针对该场景的数据构建、模型训练、评测的框架—— ToolLLM。|[[知乎文章](https://zhuanlan.zhihu.com/p/649277843)], [[GitHub 开源地址](https://github.com/OpenBMB/ToolBench)]|
 |[AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2308.03688)| AgentBench 是首个旨在评估 LLM 在各种不同环境中作为智能体的基准。它包含 8 种不同的环境，可以更全面地评估 LLM 在各种场景中作为自主智能体运行的能力。|[GitHub 开源地址](https://github.com/THUDM/AgentBench)|
 |[ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)|面向真实线上任务的浏览器智能体评测框架，包含 153 个日常任务并覆盖 144 个真实网站；通过隔离容器、多种可选 agent harness，以及回放、动作、网络和消息轨迹支持可复现实验与失效分析。|[项目主页](https://claw-bench.com/) · [GitHub](https://github.com/TIGER-AI-Lab/ClawBench)|
+|[awesome-llm-agent-papers](https://github.com/js-lee-AI/awesome-llm-agent-papers)| 《LLM Agents: A Survey》综述的配套论文清单，按规划与推理、记忆、工具使用、多智能体协作以及评测与安全分类整理| ![GitHub Repo stars](https://badgen.net/github/stars/js-lee-AI/awesome-llm-agent-papers)|
+|[awesome-agent-loop-papers](https://github.com/js-lee-AI/awesome-agent-loop-papers)| 《The Agent Loop》综述的配套论文清单，以智能体循环为主线，涵盖循环范式、终止与验证、agentic RL、技能（skills）与 harness| ![GitHub Repo stars](https://badgen.net/github/stars/js-lee-AI/awesome-agent-loop-papers)|
 
 
 ## 2024-2026 重要项目
@@ -49,7 +51,8 @@ Agents (智能体) 精选资源合集，持续更新中
 |[SWE-agent](https://github.com/SWE-agent/SWE-agent)|![GitHub Repo stars](https://badgen.net/github/stars/SWE-agent/SWE-agent)|普林斯顿大学出品，让语言模型自主修复 GitHub Issue 的 Agent，在 SWE-bench 上表现出色。|
 |[Model Context Protocol (MCP)](https://github.com/modelcontextprotocol)|![GitHub Repo stars](https://badgen.net/github/stars/modelcontextprotocol/modelcontextprotocol)|Anthropic 提出的开放协议，为 LLM 与外部工具, 数据源的连接提供统一标准，已成为 Agent 生态事实标准。|
 |[Browser Use](https://github.com/browser-use/browser-use)|![GitHub Repo stars](https://badgen.net/github/stars/browser-use/browser-use)|让 AI Agent 像人一样操作浏览器，是当下最流行的网页自动化 Agent 工具之一。|
-|[agent-qa](https://github.com/vostride/agent-qa)|![GitHub Repo stars](https://badgen.net/github/stars/vostride/agent-qa)|面向软件团队的开源自进化 QA Agent，支持用自然语言编写并运行 Web 与移动端测试，通过跨运行记忆适应 UI 变化并发现回归问题。|
+|[Jev Social](https://github.com/socai-io/jev-social)|![GitHub Repo stars](https://badgen.net/github/stars/socai-io/jev-social)|Jev 驱动的只读社交研究应用：仅在受限操作中做类型化选择，由本地 socai CLI 使用用户已登录的 Chrome 获取 Instagram、TikTok、LinkedIn 帖子、评论和视频，并输出带来源链接的证据报告。|
+|[agent-qa](https://github.com/vostride/agent-qa)|![GitHub Repo stars](https://badgen.net/github/stars/vostride/agent-qa)|面向软件团队的自进化 QA Agent，支持用自然语言编写并运行 Web 与移动端测试，通过跨运行记忆适应 UI 变化并发现回归问题。|
 |[smolagents](https://github.com/huggingface/smolagents)|![GitHub Repo stars](https://badgen.net/github/stars/huggingface/smolagents)|Hugging Face 推出的极简 Agent 库，核心仅约一千行代码，主打以代码形式编写 Agent 动作。|
 |[Pydantic AI](https://github.com/pydantic/pydantic-ai)|![GitHub Repo stars](https://badgen.net/github/stars/pydantic/pydantic-ai)|由 Pydantic 团队打造的 Agent 框架，强调类型安全与结构化输出，将 Pydantic 的工程体验带入 GenAI 开发。|
 |[A2A (Agent2Agent)](https://github.com/a2aproject/A2A)|![GitHub Repo stars](https://badgen.net/github/stars/a2aproject/A2A)|Google 发起的开放协议 (现由 Linux 基金会托管)，用于不同框架, 不同厂商的 Agent 之间互联互通。|
@@ -65,6 +68,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[Hermes Agent](https://github.com/NousResearch/hermes-agent)|![GitHub Repo stars](https://badgen.net/github/stars/NousResearch/hermes-agent)|Nous Research 出品的开源自我改进个人 Agent，跨 CLI / 桌面 / IM 运行，跨会话学习，可驱动真实终端与浏览器。|
 |[pi](https://github.com/earendil-works/pi)|![GitHub Repo stars](https://badgen.net/github/stars/earendil-works/pi)|极简可扩展的编码 Agent harness（"primitives, not features"），内核仅 Read/Write/Edit/Bash 四个工具，靠扩展与 Skills 定制，OpenClaw 即构建于其上。|
 |[Agent Skills（开放标准）](https://github.com/agentskills/agentskills)|![GitHub Repo stars](https://badgen.net/github/stars/agentskills/agentskills)|Anthropic 发起的 `SKILL.md` 开放标准，让 Agent 按需加载可复用技能，已被 Claude Code、Codex、Gemini CLI、Cursor、OpenCode、dsh 等 40+ 产品采纳。|
+|[YYLO](https://github.com/yylo-dev/yylo)|![GitHub Repo stars](https://badgen.net/github/stars/yylo-dev/yylo)|面向命令行的编码 Agent 编排器（Node CLI，MIT）：为每个任务创建独立分支/worktree 并冻结目标 SHA，提供类型化的任务、验证、合并与发布就绪边界；finish 独立校验后入队但不自动合并，merge 在私有 detached candidate 中合成且不启动模型，全程留存回执。|
 |[Orbi](https://github.com/orbi-build/orbi)|![GitHub Repo stars](https://badgen.net/github/stars/orbi-build/orbi)|自托管的编码 Agent 交付系统：给 GitHub Issue 打上 ai-ready 标签，它在隔离的 worktree 里写代码、开 PR，由独立的评审会话按验收标准审查，只合并审过的版本；用户请求发布时再创建带 tag 的 Release。AGPL-3.0。|
 
 
