@@ -69,6 +69,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[pi](https://github.com/earendil-works/pi)|![GitHub Repo stars](https://badgen.net/github/stars/earendil-works/pi)|极简可扩展的编码 Agent harness（"primitives, not features"），内核仅 Read/Write/Edit/Bash 四个工具，靠扩展与 Skills 定制，OpenClaw 即构建于其上。|
 |[Agent Skills（开放标准）](https://github.com/agentskills/agentskills)|![GitHub Repo stars](https://badgen.net/github/stars/agentskills/agentskills)|Anthropic 发起的 `SKILL.md` 开放标准，让 Agent 按需加载可复用技能，已被 Claude Code、Codex、Gemini CLI、Cursor、OpenCode、dsh 等 40+ 产品采纳。|
 |[YYLO](https://github.com/yylo-dev/yylo)|![GitHub Repo stars](https://badgen.net/github/stars/yylo-dev/yylo)|面向命令行的编码 Agent 编排器（Node CLI，MIT）：为每个任务创建独立分支/worktree 并冻结目标 SHA，提供类型化的任务、验证、合并与发布就绪边界；finish 独立校验后入队但不自动合并，merge 在私有 detached candidate 中合成且不启动模型，全程留存回执。|
+|[Orbi](https://github.com/orbi-build/orbi)|![GitHub Repo stars](https://badgen.net/github/stars/orbi-build/orbi)|自托管的编码 Agent 交付系统：给 GitHub Issue 打上 ai-ready 标签，它在隔离的 worktree 里写代码、开 PR，由独立的评审会话按验收标准审查，只合并审过的版本；用户请求发布时再创建带 tag 的 Release。AGPL-3.0。|
 
 
 ## 前沿项目
