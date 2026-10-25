@@ -128,3 +128,5 @@ Agents (智能体) 精选资源合集，持续更新中
 ---
 
 作者：云中江树，微信公众号: 云中江树
+
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - Non-custodial 3-line Web3 checkout widget, REST API, and remote MCP payment receipt verifier (`wDOOM` on Base Mainnet & `DOOM` Layer-1).
