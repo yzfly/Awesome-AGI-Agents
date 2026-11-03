@@ -115,6 +115,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[Letta](https://github.com/letta-ai/letta)|![GitHub Repo stars](https://badgen.net/github/stars/letta-ai/letta)|Letta (formerly MemGPT) is a framework for creating stateful LLM agents.|原 MemGPT，专注于具备长期记忆的有状态 Agent，让智能体在跨会话中持续学习与保留上下文。|
 |[Aeon](https://github.com/aeonfun/aeon)|![GitHub Repo stars](https://badgen.net/github/stars/aeonfun/aeon)|The most autonomous agent framework - skills as Markdown files, scheduled on GitHub Actions with no approval loops, self-heals broken skills, and dispatches each skill to one of six model harnesses.|完全自主的 Agent 框架，技能即 Markdown 文件，通过 cron 定时在 GitHub Actions 上无人值守运行，可自我修复损坏的技能，支持 Claude、Grok、Codex、Pi、Vibe、Kimi 六种模型。|
 |[Aident Loadout](https://github.com/Aident-AI/aident-skill)|![GitHub Repo stars](https://badgen.net/github/stars/Aident-AI/aident-skill)|Connect AI agents to work apps through a hosted MCP service, CLI and Skill.|[官网](https://aident.ai) 在不同 Agent 中复用已授权的应用连接，并提供凭据管理和操作审计；仓库为 MIT 接入技能与配置，托管能力单独计费。|
+|[Keenable](https://github.com/keenableai/keenable-mcp)|![GitHub Repo stars](https://badgen.net/github/stars/keenableai/keenable-mcp)|Web search and page fetch for AI agents over a hosted MCP server, HTTP API and SDKs.|[官网](https://keenable.ai) 面向 Agent 的独立网页搜索索引：`search_web_pages` 返回带摘要和日期的排序结果，支持按站点和发布日期过滤；`fetch_page_content` 把网页转成干净的 Markdown，也可只返回按提示抽取的内容。无需 API Key 即可在公共额度上使用，另有 LangChain、LlamaIndex、Mastra 等集成。|
 
 ## Curated List
 |名称|Stars|简介|备注|
