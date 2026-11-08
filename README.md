@@ -45,6 +45,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |---|---|---|
 |[LangGraph](https://github.com/langchain-ai/langgraph)|![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/langgraph)|LangChain 团队推出的有状态、多角色 Agent 编排框架，以图 (Graph) 的方式构建可控、可循环的 Agent 工作流。|
 |[CrewAI](https://github.com/crewAIInc/crewAI)|![GitHub Repo stars](https://badgen.net/github/stars/crewAIInc/crewAI)|面向角色协作的多 Agent 框架，让多个扮演不同角色的智能体像团队一样协同完成复杂任务。|
+|[LightAgent](https://github.com/wanxingai/LightAgent)|![GitHub Repo stars](https://badgen.net/github/stars/wanxingai/LightAgent)|轻量级 Python Agent 框架，支持工具、记忆、MCP、Skills 与流式输出，提供 LightSwarm 多 Agent 协作、LightFlow 检查点工作流及带产物验证的持久化动态 DAG（LightDAG）。|
 |[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)|![GitHub Repo stars](https://badgen.net/github/stars/openai/openai-agents-python)|OpenAI 官方推出的轻量级多 Agent 编排 SDK，内置 handoffs, guardrails 与 tracing，是 Swarm 的生产级继任者。|
 |[OpenHands](https://github.com/OpenHands/OpenHands)|![GitHub Repo stars](https://badgen.net/github/stars/OpenHands/OpenHands)|原 OpenDevin，能够编写代码, 运行命令, 浏览网页的自主软件工程 Agent 平台。|
 |[Orkas](https://github.com/Orkas-AI/Orkas)|![GitHub Repo stars](https://badgen.net/github/stars/Orkas-AI/Orkas)|开源、本地优先的 AI 团队桌面应用，由 Commander 将目标转成可执行计划，并在一个对话中协调专业 Agent 并行或串行完成复杂工作。|
