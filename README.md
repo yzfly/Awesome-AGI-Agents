@@ -35,6 +35,8 @@ Agents (智能体) 精选资源合集，持续更新中
 |[ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)|面向真实线上任务的浏览器智能体评测框架，包含 153 个日常任务并覆盖 144 个真实网站；通过隔离容器、多种可选 agent harness，以及回放、动作、网络和消息轨迹支持可复现实验与失效分析。|[项目主页](https://claw-bench.com/) · [GitHub](https://github.com/TIGER-AI-Lab/ClawBench)|
 |[awesome-llm-agent-papers](https://github.com/js-lee-AI/awesome-llm-agent-papers)| 《LLM Agents: A Survey》综述的配套论文清单，按规划与推理、记忆、工具使用、多智能体协作以及评测与安全分类整理| ![GitHub Repo stars](https://badgen.net/github/stars/js-lee-AI/awesome-llm-agent-papers)|
 |[awesome-agent-loop-papers](https://github.com/js-lee-AI/awesome-agent-loop-papers)| 《The Agent Loop》综述的配套论文清单，以智能体循环为主线，涵盖循环范式、终止与验证、agentic RL、技能（skills）与 harness| ![GitHub Repo stars](https://badgen.net/github/stars/js-lee-AI/awesome-agent-loop-papers)|
+|[Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](https://arxiv.org/abs/2606.24177)|基于 Prompt Economy 的全学科自动科研系统。在所有 autoresearch 系统中提示词量最小：18 个角色的 prompt 一共 230.6 KiB。|[GitHub 开源地址](https://github.com/AutoResearch-Factory/Agon)|
+|[PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/abs/2606.08878)|首个评测 LLM 多 agent 提示词写作的 benchmark。10 种拓扑，110 个场景，测 LLM 能不能把上下文片段分配给对的 subagent。33 个商业模型的平均通过率只有 17.2%。|[GitHub 开源地址](https://github.com/WhymustIhaveaname/PerspectiveGap) · [Hugging Face](https://huggingface.co/datasets/sun1245/PerspectiveGap)|
 
 
 ## 2024-2026 重要项目
