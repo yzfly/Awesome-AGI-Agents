@@ -80,6 +80,9 @@ Agents (智能体) 精选资源合集，持续更新中
 |[Frink](https://github.com/benord-labs/frink)|![GitHub Repo stars](https://badgen.net/github/stars/benord-labs/frink)|桌面优先的开源（MIT）应用，可在你已经在用的各家 AI 编程服务商上运行并行智能体，以及由定时调度、Webhook 或 Linear、Sentry 等工具的事件触发的多步骤自定义工作流。工作流除了智能体、命令和审批步骤之外，还可以包含你自己用代码编写的步骤。官网 [frink.dev](https://frink.dev)。|
 |[AnyModelBot](https://github.com/modelflare-ai/AnyModelBot)|![GitHub Repo stars](https://badgen.net/github/stars/modelflare-ai/AnyModelBot)|开源（MIT）桌面 AI 助手，开箱即用的 DeepSeek Super Agent：后台任务、一句话写成的定时规则和集中的「需要你」收件箱；设计参考 DeepSeek 的 dsh-superagent 原型（研究原型），运行在 DeepSeek Harness 上，可在应用、微信、飞书中使用，通过 Modelflare 账号调用 70+ 模型。|
 |[ClickHouse Loom](https://github.com/ClickHouse/loom)|![GitHub Repo stars](https://badgen.net/github/stars/ClickHouse/loom)|ClickHouse 开源（Apache-2.0）的自托管 MCP 服务器：为多个 Agent 提供共享的长期记忆（版本历史、冲突标记、审计与擦除）、带引用的文档检索、代码仓库索引和多 Agent 任务交接，支持 Claude Code、Codex 插件和 Python/TypeScript SDK，数据存储在 ClickHouse 中。|
+|[FrontierAgent](https://github.com/ApodexAI/FrontierAgent)|![GitHub Repo stars](https://badgen.net/github/stars/ApodexAI/FrontierAgent)|Apodex 开源的 Agent 运行时、终端产品与评测套件（Apache-2.0），面向长程研究与文件类工作：ReAct 单 Agent 模式与 Agent Team 模式（协调者维护任务板、并行子 Agent 汇报后综合），同一工作流引擎也用于其模型评测。|
+|[nanoMuse](https://github.com/nano-muse/nanoMuse)|![GitHub Repo stars](https://badgen.net/github/stars/nano-muse/nanoMuse)|开源（GPL-3.0）的跨设备个人 Agent：手机、桌面、Web 控制台和中继服务都在同一仓库，可自托管、自选模型；定位为 Meta Muse 个人 Agent 的低成本开源替代。|
+|[OpenGCUA](https://github.com/Tongyi-MAI/OpenGCUA)|![GitHub Repo stars](https://badgen.net/github/stars/Tongyi-MAI/OpenGCUA)|通义实验室开放的通用 Computer-Use Agent 研究栈（Apache-2.0，2026-10 研究预览）：把 GUI 操作写成代码并与辅助功能树、应用 API、Shell 组合，附 OSWorld 集成示例、8 个前沿模型评测轨迹与跨设备 SDK。|
 
 
 ## 前沿项目
