@@ -79,6 +79,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[PlaceCall](https://github.com/voygr-tech/placecall)|![GitHub Repo stars](https://badgen.net/github/stars/voygr-tech/placecall)|给 Agent 一部电话：通过远程 MCP 服务器和 Agent Skill（客户端 MIT 开源），让 Claude Code、Codex、Cursor 等 Agent 替用户给美国商家拨打真实电话（订位、预约、询价），可处理语音菜单、等待和转接，通话中能把问题转回给用户，结束后返回结构化结果、文字记录和录音。通话服务为托管付费服务，仅限美国号码。|
 |[Frink](https://github.com/benord-labs/frink)|![GitHub Repo stars](https://badgen.net/github/stars/benord-labs/frink)|桌面优先的开源（MIT）应用，可在你已经在用的各家 AI 编程服务商上运行并行智能体，以及由定时调度、Webhook 或 Linear、Sentry 等工具的事件触发的多步骤自定义工作流。工作流除了智能体、命令和审批步骤之外，还可以包含你自己用代码编写的步骤。官网 [frink.dev](https://frink.dev)。|
 |[AnyModelBot](https://github.com/modelflare-ai/AnyModelBot)|![GitHub Repo stars](https://badgen.net/github/stars/modelflare-ai/AnyModelBot)|开源（MIT）桌面 AI 助手，开箱即用的 DeepSeek Super Agent：后台任务、一句话写成的定时规则和集中的「需要你」收件箱；设计参考 DeepSeek 的 dsh-superagent 原型（研究原型），运行在 DeepSeek Harness 上，可在应用、微信、飞书中使用，通过 Modelflare 账号调用 70+ 模型。|
+|[ClickHouse Loom](https://github.com/ClickHouse/loom)|![GitHub Repo stars](https://badgen.net/github/stars/ClickHouse/loom)|ClickHouse 开源（Apache-2.0）的自托管 MCP 服务器：为多个 Agent 提供共享的长期记忆（版本历史、冲突标记、审计与擦除）、带引用的文档检索、代码仓库索引和多 Agent 任务交接，支持 Claude Code、Codex 插件和 Python/TypeScript SDK，数据存储在 ClickHouse 中。|
 
 
 ## 前沿项目
