@@ -41,7 +41,7 @@ Agents (智能体) 精选资源合集，持续更新中
 
 ## 2024-2026 重要项目
 
-本仓库早期内容主要覆盖 2023 年的 Agent 生态。以下为 2024-2026 年间崛起并经验证仍活跃的重要项目与协议（2026-08 更新：新增 deepseek-harness、Codex CLI、OpenClaw、Hermes、pi、Agent Skills）。
+本仓库早期内容主要覆盖 2023 年的 Agent 生态。以下为 2024-2026 年间崛起并经验证仍活跃的重要项目与协议（2026-08 更新：新增 deepseek-harness、Codex CLI、OpenClaw、Hermes、pi、Agent Skills；2026-11 更新：新增 FrontierAgent、nanoMuse、OpenGCUA、LightAgent、AnyModelBot、ClickHouse Loom）。
 
 |名称|Stars|简介|
 |---|---|---|
