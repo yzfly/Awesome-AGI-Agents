@@ -37,6 +37,8 @@ Agents (智能体) 精选资源合集，持续更新中
 |[awesome-agent-loop-papers](https://github.com/js-lee-AI/awesome-agent-loop-papers)| 《The Agent Loop》综述的配套论文清单，以智能体循环为主线，涵盖循环范式、终止与验证、agentic RL、技能（skills）与 harness| ![GitHub Repo stars](https://badgen.net/github/stars/js-lee-AI/awesome-agent-loop-papers)|
 |[Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](https://arxiv.org/abs/2606.24177)|基于 Prompt Economy 的全学科自动科研系统。在所有 autoresearch 系统中提示词量最小：18 个角色的 prompt 一共 230.6 KiB。|[GitHub 开源地址](https://github.com/AutoResearch-Factory/Agon)|
 |[PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/abs/2606.08878)|首个评测 LLM 多 agent 提示词写作的 benchmark。10 种拓扑，110 个场景，测 LLM 能不能把上下文片段分配给对的 subagent。33 个商业模型的平均通过率只有 17.2%。|[GitHub 开源地址](https://github.com/WhymustIhaveaname/PerspectiveGap) · [Hugging Face](https://huggingface.co/datasets/sun1245/PerspectiveGap)|
+|[SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents](https://arxiv.org/abs/2610.21082)|评测科研 agent 在关键节点上像 Principal Investigator 一样做判断的能力。248 道题来自 6 个月真实研究中资深研究者对 LLM agent 的纠正，覆盖 26 个项目、6 个学科。5 个前沿模型里有 4 个正确率低于瞎蒙，最好的那一个也只有 63.5%，而无领域背景知识的人类轻松达到 73.4%。|[GitHub 开源地址](https://github.com/AutoResearch-Factory/SciPIvot) · [Hugging Face](https://huggingface.co/datasets/sun1245/SciPIvot)|
+|[AutoSR: Automatic Symbolic Regression by Searching Research States](https://arxiv.org/abs/2608.16876)|多 agent 符号回归（symbolic regression）。精确恢复所有已发表的符号回归系统都解不出的 3 道 cp3-bench 题。有望解决此前符号回归（1）只有公式没有洞见（2）过拟合数据点，抗噪声和外插能力差，的问题。在 [autosr.app](https://autosr.app) 上开放给大家免费试用。|[GitHub 开源地址](https://github.com/AutoResearch-Factory/AutoSR)|
 
 
 ## 2024-2026 重要项目
