@@ -83,6 +83,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[FrontierAgent](https://github.com/ApodexAI/FrontierAgent)|![GitHub Repo stars](https://badgen.net/github/stars/ApodexAI/FrontierAgent)|Apodex 开源的 Agent 运行时、终端产品与评测套件（Apache-2.0），面向长程研究与文件类工作：ReAct 单 Agent 模式与 Agent Team 模式（协调者维护任务板、并行子 Agent 汇报后综合），同一工作流引擎也用于其模型评测。|
 |[nanoMuse](https://github.com/nano-muse/nanoMuse)|![GitHub Repo stars](https://badgen.net/github/stars/nano-muse/nanoMuse)|开源（GPL-3.0）的跨设备个人 Agent：手机、桌面、Web 控制台和中继服务都在同一仓库，可自托管、自选模型；定位为 Meta Muse 个人 Agent 的低成本开源替代。|
 |[OpenGCUA](https://github.com/Tongyi-MAI/OpenGCUA)|![GitHub Repo stars](https://badgen.net/github/stars/Tongyi-MAI/OpenGCUA)|通义实验室开放的通用 Computer-Use Agent 研究栈（Apache-2.0，2026-10 研究预览）：把 GUI 操作写成代码并与辅助功能树、应用 API、Shell 组合，附 OSWorld 集成示例、8 个前沿模型评测轨迹与跨设备 SDK。|
+|[AppuBot](https://github.com/sarthakguptadev/AppuBot)|![GitHub Repo stars](https://badgen.net/github/stars/sarthakguptadev/AppuBot)|开源（Apache-2.0）桌面应用，在你自己的电脑上组建一支 AI 机器人团队：每个机器人有各自的职责、记忆和技能，可以互相交接任务、按计划定时执行，并直接在你电脑上的真实应用和文件中工作，重要操作需经你确认。使用你已有的 Claude Code、Codex、Cursor、Grok、GitHub Copilot 或 OpenCode 账号，支持 macOS、Windows 和 Linux。|
 
 
 ## 前沿项目
