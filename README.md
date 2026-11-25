@@ -83,6 +83,7 @@ Agents (智能体) 精选资源合集，持续更新中
 |[FrontierAgent](https://github.com/ApodexAI/FrontierAgent)|![GitHub Repo stars](https://badgen.net/github/stars/ApodexAI/FrontierAgent)|Apodex 开源的 Agent 运行时、终端产品与评测套件（Apache-2.0），面向长程研究与文件类工作：ReAct 单 Agent 模式与 Agent Team 模式（协调者维护任务板、并行子 Agent 汇报后综合），同一工作流引擎也用于其模型评测。|
 |[nanoMuse](https://github.com/nano-muse/nanoMuse)|![GitHub Repo stars](https://badgen.net/github/stars/nano-muse/nanoMuse)|开源（GPL-3.0）的跨设备个人 Agent：手机、桌面、Web 控制台和中继服务都在同一仓库，可自托管、自选模型；定位为 Meta Muse 个人 Agent 的低成本开源替代。|
 |[OpenGCUA](https://github.com/Tongyi-MAI/OpenGCUA)|![GitHub Repo stars](https://badgen.net/github/stars/Tongyi-MAI/OpenGCUA)|通义实验室开放的通用 Computer-Use Agent 研究栈（Apache-2.0，2026-10 研究预览）：把 GUI 操作写成代码并与辅助功能树、应用 API、Shell 组合，附 OSWorld 集成示例、8 个前沿模型评测轨迹与跨设备 SDK。|
+|[AlphaSift](https://github.com/ZhuLinsen/alphasift)|![GitHub Repo stars](https://badgen.net/github/stars/ZhuLinsen/alphasift)|开源（Apache-2.0）AI Agent 驱动的多市场量化选股与公开实证雷达（A股 / 美股 / 港股 / 日股 / 韩股 / 台股 / 印股 7 大市场）。核心由无状态 CLI / 本地 Web UI 工作台 / STDIO MCP Server（13 只读工具 + 4 项资源）与 Agent Skill 构成（默认零 LLM token 消耗，按需 BYOK 策略工坊），自带真实收盘价 T+1/T+5/T+10 公开模拟跟踪与防未来数据泄露 Purged Walk-Forward 回放检验（[在线看板](https://alphasift.zhulinsen.tech/)）。|
 
 
 ## 前沿项目
